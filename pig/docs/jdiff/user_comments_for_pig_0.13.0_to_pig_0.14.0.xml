@@ -1,0 +1,3546 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<comments
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+  xsi:noNamespaceSchemaLocation='comments.xsd'
+  name="pig_0.13.0_to_pig_0.14.0"
+  jdversion="1.0.9">
+
+<!-- This file contains comments for a JDiff report. -->
+<!-- It is used only in generating the report, and does not need to ship with the final report. -->
+
+<!-- The id attribute in an identifier element identifiers the change as noted in the report. -->
+<!-- An id has the form package[.class[.[ctor|method|field].signature]], where [] indicates optional text. -->
+<!-- A comment element can have multiple identifier elements, which will -->
+<!-- will cause the same text to appear at each place in the report, but -->
+<!-- will be converted to separate comments when the comments file is used. -->
+<!-- HTML tags in the text field will appear in the report. -->
+<comment>
+  <identifier id="org.apache.pig"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.EvalFunc"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.EvalFunc.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.EvalFunc.getShipFiles_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.Expression.BetweenExpression"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.Expression.InExpression"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.Expression.OpType"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.Expression.OpType.OP_BETWEEN"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.Expression.OpType.OP_IN"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.Expression.OpType.OP_NOT"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.Expression.OpType.OP_NULL"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.Expression.UnaryExpression"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.JVMReuseImpl"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.JVMReuseManager"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.LoadFunc"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.LoadFunc.getCacheFiles_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.LoadFunc.getShipFiles_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.LoadPredicatePushdown"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.INSERT_ENABLED"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.MAX_SCRIPT_SIZE"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.OPT_FETCH"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PARTAGG_MINREDUCTION"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_ACCUMULATIVE_BATCHSIZE"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_CACHEDBAG_DISTINCT_TYPE"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_CACHEDBAG_MEMUSAGE"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_CACHEDBAG_SORT_TYPE"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_CACHEDBAG_TYPE"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_EXEC_MAP_PARTAGG"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_EXEC_MAP_PARTAGG_MINREDUCTION"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_EXEC_NO_COMBINER"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_EXEC_NO_SECONDARY_KEY"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_EXEC_REDUCER_ESTIMATOR"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_EXEC_REDUCER_ESTIMATOR_CONSTRUCTOR_ARG_KEY"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_MAX_COMBINED_SPLIT_SIZE"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_NO_SPLIT_COMBINATION"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_NO_TASK_REPORT"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_OPT_ACCUMULATOR"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_OPT_FETCH"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_OPT_MULTIQUERY"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_POISSON_SAMPLER_SAMPLE_RATE"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_SCHEMA_TUPLE_ALLOW_FORCE"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_SCHEMA_TUPLE_ENABLED"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_SCHEMA_TUPLE_USE_IN_FOREACH"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_SCHEMA_TUPLE_USE_IN_FRJOIN"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_SCHEMA_TUPLE_USE_IN_MERGEJOIN"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_SCHEMA_TUPLE_USE_IN_UDF"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_SCRIPT_INFO_ENABLED"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_SCRIPT_MAX_SIZE"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_SKEWEDJOIN_REDUCE_MEMUSAGE"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_SPLIT_COMBINATION"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_STREAMING_UDF_PYTHON_COMMAND"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_TEZ_AUTO_PARALLELISM"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_TEZ_DAG_STATUS_REPORT_INTERVAL"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_TEZ_OPT_UNION"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_TEZ_SESSION_REUSE"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_UDF_PROFILE"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PIG_UDF_PROFILE_FREQUENCY"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PROP_CACHEDBAG_MEMUSAGE"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PROP_EXEC_MAP_PARTAGG"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.PROP_NO_COMBINER"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConfiguration.TIME_UDFS_PROP"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConstants"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConstants.TASK_INDEX"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConstants.TIME_UDFS_ELAPSED_TIME_COUNTER"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigConstants.TIME_UDFS_INVOCATION_COUNTER"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigServer"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigServer.ctor_added(java.lang.String, java.util.Properties)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigServer.resetScope_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigWarning"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigWarning.MULTI_LEAF_REDUCE"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.PigWarning.MULTI_ROOT_REDUCE"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.StaticDataCleanup"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.StoreResources"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.executionengine"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.executionengine.ExecutionEngine"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.executionengine.ExecutionEngine.destroy_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.datastorage"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.datastorage.ConfigurationUtil"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.datastorage.ConfigurationUtil.toConfiguration_added(java.util.Properties, boolean)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.HExecutionEngine"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.HExecutionEngine.JOB_TRACKER_LOCATION"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.HExecutionEngine.MAPREDUCE_FRAMEWORK_NAME"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.HExecutionEngine.destroy_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.HExecutionEngine.getLocalConf_changed()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.Launcher"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.Launcher.computeTimeSpent_changed(java.util.Iterator)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.Launcher.destroy_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.Launcher.getErrorMessages_changed(java.util.Iterator, java.lang.String, boolean, org.apache.pig.impl.PigContext)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.Launcher.setJobException_added(java.lang.Throwable)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.ColumnInfo"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.ColumnInfo.getColumns_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.ColumnInfo.getResultType_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.ColumnInfo.getStartCol_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.ColumnInfo.isRangeProject_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler.configureCompression_added(org.apache.hadoop.conf.Configuration)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler.setOutputFormat_added(org.apache.hadoop.mapreduce.Job)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MRConfiguration"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher.SUCCESSFUL_JOB_OUTPUT_DIR_MARKER"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PhyPlanSetter"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PhyPlanSetter.visitPOOptimizedForEach_changed(org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POOptimizedForEach)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PhyPlanSetter.visitPartialAgg_changed(org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POPartialAgg)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PhyPlanSetter.visitPoissonSample_added(org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POPoissonSample)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PhyPlanSetter.visitPreCombinerLocalRearrange_changed(org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POPreCombinerLocalRearrange)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PhyPlanSetter.visitReservoirSample_added(org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POReservoirSample)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PhyPlanSetter.visit_added(org.apache.pig.backend.hadoop.executionengine.physicalLayer.PhysicalOperator)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigCombiner"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigCombiner.Combine"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigCombiner.Combine.staticDataCleanup_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigCombiner.sJobContext"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigGenericMapReduce"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigGenericMapReduce.sJobConfInternal"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigGenericMapReduce.staticDataCleanup_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigHadoopLogger"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigHadoopLogger.destroy_removed()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigOutputFormat"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigOutputFormat.MAPRED_OUTPUT_DIR"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigOutputFormat.MAPRED_TASK_PARTITION"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigOutputFormat.currentConf"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigOutputFormat.mapStores"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigOutputFormat.reduceStores"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigOutputFormat.setupUdfEnvAndStores_added(org.apache.hadoop.mapreduce.JobContext)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigStatsOutputSizeReader"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigStatsOutputSizeReader.OUTPUT_SIZE_READER_UNSUPPORTED"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.SecondaryKeyOptimizerMR"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.SkewedPartitioner"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.SkewedPartitioner.init_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.SkewedPartitioner.inited"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.SkewedPartitioner.reducerMap"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.SkewedPartitioner.tf"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.SkewedPartitioner.totalReducers"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.WeightedRangePartitioner"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.WeightedRangePartitioner.comparator"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.WeightedRangePartitioner.convertToArray_added(org.apache.pig.data.DataBag)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.WeightedRangePartitioner.getPigNullableWritable_added(org.apache.pig.data.Tuple)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.WeightedRangePartitioner.getProbVec_added(org.apache.pig.data.Tuple)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.WeightedRangePartitioner.init_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.WeightedRangePartitioner.inited"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.WeightedRangePartitioner.job"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.WeightedRangePartitioner.quantiles"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.WeightedRangePartitioner.weightedParts"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.plans"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.plans.EndOfAllInputSetter.EndOfAllInputChecker"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.optimizer"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.PhysicalOperator"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.PhysicalOperator.RESULT_EMPTY"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.PhysicalOperator.RESULT_EOP"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.PhysicalOperator.copyAliasFrom_added(org.apache.pig.backend.hadoop.executionengine.physicalLayer.PhysicalOperator)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.PhysicalOperator.ctor_added(org.apache.pig.backend.hadoop.executionengine.physicalLayer.PhysicalOperator)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.PhysicalOperator.reporter"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.PhysicalOperator.staticDataCleanup_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.POUserFunc"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.POUserFunc.getCacheFiles_changed()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.POUserFunc.getShipFiles_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.POUserFunc.setCacheFiles_changed(java.util.List)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.POUserFunc.setFuncSpec_added(org.apache.pig.FuncSpec)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.POUserFunc.setShipFiles_added(java.util.List)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.plans"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.plans.PhyPlanVisitor"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.plans.PhyPlanVisitor.visitPartialAgg_changed(org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POPartialAgg)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.plans.PhyPlanVisitor.visitPoissonSample_added(org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POPoissonSample)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.plans.PhyPlanVisitor.visitPreCombinerLocalRearrange_changed(org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POPreCombinerLocalRearrange)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.plans.PhyPlanVisitor.visitReservoirSample_added(org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POReservoirSample)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.plans.PhyPlanVisitor.visit_added(org.apache.pig.backend.hadoop.executionengine.physicalLayer.PhysicalOperator)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.plans.UdfCacheShipFilesVisitor"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POCounter"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POCounter.ONE"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POCounter.addToLocalCounter_changed(java.lang.Long)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POCounter.ctor_added(org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POCounter)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POCounter.getTaskId_changed()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POCounter.incrementLocalCounter_changed()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POCounter.incrementReduceCounter_added(java.lang.Long)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POCounter.setTaskId_changed(int)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin.LRs"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin.TupleToMapKey"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin.constExps"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin.ctor_added(org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin.dumTup"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin.fe"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin.fragment"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin.getLRs_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin.getValueTuple_added(org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLocalRearrange, org.apache.pig.data.Tuple)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin.inputSchemas"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin.isKeyNull_added(java.lang.Object)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin.isLeftOuterJoin"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin.keySchemas"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin.keyTypes"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin.mTupleFactory"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin.nullBag"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin.phyPlanLists"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin.processingPlan"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin.replFiles"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin.replicates"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin.setUp"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin.setUpHashMap_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POForEach"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POForEach.isMapSideOnly_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POForEach.mapSideOnly"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POForEach.setMapSideOnly_added(boolean)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POGlobalRearrange"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POGlobalRearrange.isCross_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POGlobalRearrange.setCross_added(boolean)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLoad"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLoad.getCacheFiles_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLoad.getShipFiles_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLoad.setCacheFiles_added(java.util.List)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLoad.setShipFiles_added(java.util.List)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLocalRearrange"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLocalRearrange.ctor_added(org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLocalRearrange)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLocalRearrange.deepCopyTo_added(org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLocalRearrange)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLocalRearrange.getMainKeyType_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLocalRearrange.inp"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POMergeCogroup"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POMergeCogroup.setEndOfRecordMark_added(byte)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POMergeJoin"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POMergeJoin.TuplesToSchemaTupleList"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POMergeJoin.TuplesToSchemaTupleList.ctor_changed(int, org.apache.pig.data.TupleMaker)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POMergeJoin.setEndOfRecordMark_added(byte)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POPackage"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POPackage.POPackageTupleBuffer"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POPackage.ctor_added(org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POPackage)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POPackage.keyWritable"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POPartialAgg"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POPartitionRearrange"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POPartitionRearrange.mBagFactory"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POPoissonSample"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.PORank"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.PORank.ctor_added(org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.PORank)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.PORank.getRankCounterOffset_added(java.lang.Integer)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POReservoirSample"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POStore"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POStore.ctor_added(org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POStore)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POStore.empty"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POStore.getCacheFiles_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POStore.getShipFiles_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POStore.setCacheFiles_added(java.util.List)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POStore.setShipFiles_added(java.util.List)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.util"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.util.PlanHelper"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.physicalLayer.util.PlanHelper.getLocalRearrangePlanFromSplit_added(org.apache.pig.backend.hadoop.executionengine.physicalLayer.plans.PhysicalPlan, org.apache.pig.impl.plan.OperatorKey)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.tez"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.tez.plan"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.tez.plan.operator"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.tez.plan.optimizer"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.tez.plan.udf"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.tez.runtime"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.tez.util"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.util"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.util.AccumulatorOptimizerUtil"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.util.CombinerOptimizerUtil"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil.getPathLength_added(org.apache.hadoop.fs.FileSystem, org.apache.hadoop.fs.FileStatus, long)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.util.ParallelConstantVisitor"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.util.SecondaryKeyOptimizerUtil"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.executionengine.util.SecondaryKeyOptimizerUtil.SecondaryKeyOptimizerInfo"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.hbase"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.hbase.HBaseStorage"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.hbase.HBaseStorage.ensureAllKeyInstancesInSameSplit_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.hbase.HBaseStorage.getShipFiles_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.backend.hadoop.hbase.TableSplitComparable"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.ABS"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.ABS.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.ARITY"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.ARITY.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.AddDuration"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.AddDuration.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.Assert"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.Assert.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.AvroStorage"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.AvroStorage.VISIBLE_FILES"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.AvroStorage.depthFirstSearchForFile_removed(org.apache.hadoop.fs.FileStatus[], org.apache.hadoop.fs.FileSystem)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.AvroStorage.getShipFiles_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.BagSize"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.BagSize.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.BagToString"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.BagToString.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.BagToTuple"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.BagToTuple.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.Base"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.Base.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.BigDecimalAbs"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.BigDecimalAbs.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.BigIntegerAbs"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.BigIntegerAbs.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.CONCAT"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.CONCAT.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.ConstantSize"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.ConstantSize.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.CubeDimensions"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.CubeDimensions.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.CurrentTime"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.CurrentTime.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.DIFF"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.DIFF.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.DaysBetween"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.DaysBetween.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.Distinct"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.Distinct.staticDataCleanup_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.DoubleRound"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.DoubleRound.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.DoubleRoundTo"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.DoubleRoundTo.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.ENDSWITH"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.ENDSWITH.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.EqualsIgnoreCase"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.EqualsIgnoreCase.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.FloatAbs"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.FloatAbs.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.FloatRound"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.FloatRound.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.FloatRoundTo"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.FloatRoundTo.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.FuncUtils"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.GetDay"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.GetDay.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.GetHour"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.GetHour.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.GetMilliSecond"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.GetMilliSecond.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.GetMinute"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.GetMinute.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.GetMonth"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.GetMonth.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.GetSecond"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.GetSecond.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.GetWeek"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.GetWeek.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.GetWeekYear"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.GetWeekYear.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.GetYear"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.GetYear.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.HoursBetween"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.HoursBetween.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.INDEXOF"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.INDEXOF.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.INVERSEMAP"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.INVERSEMAP.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.IntAbs"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.IntAbs.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.IsEmpty"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.IsEmpty.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.JsonLoader"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.JsonLoader.getShipFiles_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.JsonStorage"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.JsonStorage.getCacheFiles_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.JsonStorage.getShipFiles_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.KEYSET"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.KEYSET.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.LAST_INDEX_OF"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.LAST_INDEX_OF.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.LCFIRST"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.LCFIRST.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.LOWER"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.LOWER.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.LTRIM"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.LTRIM.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.LongAbs"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.LongAbs.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.MapSize"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.MapSize.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.MilliSecondsBetween"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.MilliSecondsBetween.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.MinutesBetween"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.MinutesBetween.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.MonthsBetween"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.MonthsBetween.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.OrcStorage"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.PluckTuple"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.PluckTuple.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.REGEX_EXTRACT"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.REGEX_EXTRACT.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.REGEX_EXTRACT_ALL"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.REGEX_EXTRACT_ALL.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.REPLACE"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.REPLACE.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.ROUND"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.ROUND.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.ROUND_TO"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.ROUND_TO.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.RTRIM"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.RTRIM.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.RollupDimensions"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.RollupDimensions.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.SIZE"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.SIZE.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.SPRINTF"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.STARTSWITH"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.STARTSWITH.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.STRSPLIT"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.STRSPLIT.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.STRSPLITTOBAG"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.SUBSTRING"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.SUBSTRING.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.SUBTRACT"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.SUBTRACT.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.SecondsBetween"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.SecondsBetween.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.StringConcat"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.StringConcat.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.StringSize"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.StringSize.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.SubtractDuration"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.SubtractDuration.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.TOBAG"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.TOBAG.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.TOKENIZE"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.TOKENIZE.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.TOMAP"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.TOMAP.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.TOP"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.TOP.Final"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.TOP.Final.ctor_added(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.TOP.Initial"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.TOP.Initial.ctor_added(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.TOP.Intermed"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.TOP.Intermed.ctor_added(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.TOP.ctor_added(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.TOTUPLE"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.TOTUPLE.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.TRIM"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.TRIM.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.ToDate"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.ToDate.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.ToDate2ARGS"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.ToDate2ARGS.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.ToDate3ARGS"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.ToDate3ARGS.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.ToDateISO"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.ToDateISO.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.ToMilliSeconds"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.ToMilliSeconds.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.ToString"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.ToString.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.ToUnixTime"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.ToUnixTime.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.TupleSize"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.TupleSize.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.UCFIRST"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.UCFIRST.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.UPPER"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.UPPER.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.UniqueID"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.VALUELIST"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.VALUELIST.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.VALUESET"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.VALUESET.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.WeeksBetween"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.WeeksBetween.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.YearsBetween"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.builtin.YearsBetween.allowCompileTimeCalculation_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.data"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.data.DefaultTuple"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.data.DefaultTuple.isNull"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.PigContext"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.PigContext.addSkipJar_removed(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.PigContext.skipJars"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.PigContext.staticDataCleanup_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.PigImplConstants"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.PigImplConstants.CONVERTED_TO_FETCH"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.PigImplConstants.PIG_CROSS_PARALLELISM"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.PigImplConstants.PIG_SPLIT_INDEX"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.PigImplConstants.REDUCER_DEFAULT_PARALLELISM"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.PigImplConstants.REDUCER_ESTIMATED_PARALLELISM"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.PigImplConstants.REDUCER_REQUESTED_PARALLELISM"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.builtin"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.builtin.FindQuantiles"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.builtin.FindQuantiles.numQuantiles"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.builtin.FindQuantiles.samples"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.builtin.GFCross"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.builtin.GFCross.ctor_changed(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.builtin.GFCross.getCrossKey_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.builtin.PartitionSkewedKeys"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.builtin.PartitionSkewedKeys.getMemorySize_added(org.apache.pig.data.Tuple)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.builtin.PartitionSkewedKeys.totalReducers_"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.builtin.StreamingUDF"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.builtin.StreamingUDF.getResourcesForJar_removed()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.io"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.io.FileLocalizer"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.io.FileLocalizer.deleteTempResourceFiles_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.io.FileLocalizer.getTemporaryResourcePath_added(org.apache.pig.impl.PigContext)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.io.NullablePartitionWritable"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.io.NullablePartitionWritable.clone_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.io.NullableTuple"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.io.NullableTuple.ctor_added(org.apache.pig.impl.io.NullableTuple)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.io.PigNullableWritable"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.io.PigNullableWritable.clone_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.plan"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.plan.NodeIdGenerator"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.plan.NodeIdGenerator.reset_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.util"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.util.GroupingSpillable"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.util.JarManager"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.util.JarManager.createJar_removed(java.io.OutputStream, java.util.Set, org.apache.pig.impl.PigContext)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.util.JarManager.createPigScriptUDFJar_added(org.apache.pig.impl.PigContext)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.util.JarManager.getDefaultJars_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.util.UDFContext"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.util.UDFContext.cleanupStaticData_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.util.Utils"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.util.Utils.VISIBLE_FILES"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.util.Utils.depthFirstSearchForFile_added(org.apache.hadoop.fs.FileStatus, org.apache.hadoop.fs.FileSystem)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.util.Utils.depthFirstSearchForFile_added(org.apache.hadoop.fs.FileStatus[], org.apache.hadoop.fs.FileSystem)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.util.Utils.extractHeapSizeInMB_added(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.util.Utils.isHadoop23_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.util.Utils.isHadoop2_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.util.Utils.isVendorIBM_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.impl.util.orc"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.BaseOperatorPlan"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.BaseOperatorPlan.moveTree_added(org.apache.pig.newplan.Operator, org.apache.pig.newplan.BaseOperatorPlan)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.BaseOperatorPlan.trimBelow_added(org.apache.pig.newplan.Operator)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.FilterExtractor"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.FilterExtractor.KeyState"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.FilterExtractor.LOG"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.FilterExtractor.addToFilterPlan_added(org.apache.pig.newplan.logical.expression.LogicalExpression)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.FilterExtractor.checkPushDown_added(org.apache.pig.newplan.logical.expression.BinaryExpression)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.FilterExtractor.checkPushDown_added(org.apache.pig.newplan.logical.expression.LogicalExpression)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.FilterExtractor.checkPushDown_added(org.apache.pig.newplan.logical.expression.ProjectExpression)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.FilterExtractor.checkPushDown_added(org.apache.pig.newplan.logical.expression.UnaryExpression)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.FilterExtractor.ctor_changed(org.apache.pig.newplan.logical.expression.LogicalExpressionPlan)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.FilterExtractor.filterExpr"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.FilterExtractor.getExpression_added(org.apache.pig.newplan.logical.expression.BinaryExpression, org.apache.pig.Expression.OpType)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.FilterExtractor.getExpression_added(org.apache.pig.newplan.logical.expression.LogicalExpression)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.FilterExtractor.getExpression_added(org.apache.pig.newplan.logical.expression.UnaryExpression, org.apache.pig.Expression.OpType)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.FilterExtractor.getExpression_removed(org.apache.pig.newplan.logical.expression.LogicalExpression)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.FilterExtractor.getPColCondition_removed()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.FilterExtractor.getPushDownExpression_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.FilterExtractor.isSupportedOpType_added(org.apache.pig.newplan.logical.expression.BinaryExpression)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.FilterExtractor.isSupportedOpType_added(org.apache.pig.newplan.logical.expression.UnaryExpression)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.FilterExtractor.pushdownExpr"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.PartitionFilterExtractor"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.PredicatePushDownFilterExtractor"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.logical.expression"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.logical.expression.ConstantExpression"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.logical.expression.ConstantExpression.inheritSchema_added(org.apache.pig.newplan.logical.expression.LogicalExpression)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.logical.expression.UserFuncExpression"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.logical.expression.UserFuncExpression.getEvalFunc_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.logical.optimizer"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.logical.optimizer.LogicalPlanOptimizer"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.logical.optimizer.LogicalPlanOptimizer.ctor_added(org.apache.pig.newplan.OperatorPlan, int, java.util.Set, org.apache.pig.impl.PigContext)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.logical.rules"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.logical.rules.ConstantCalculator"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.logical.rules.ConstantCalculator.ConstantCalculatorTransformer"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.logical.rules.ConstantCalculator.ConstantCalculatorTransformer.ConstantCalculatorExpressionVisitor"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.logical.rules.ConstantCalculator.ConstantCalculatorTransformer.ConstantCalculatorLogicalPlanVisitor"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.logical.rules.FilterConstantCalculator"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.logical.rules.ForEachConstantCalculator"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.logical.rules.LogicalExpressionSimplifier"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.logical.rules.LogicalExpressionSimplifier.LogicalExpressionSimplifierTransformer"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.newplan.logical.rules.PredicatePushdownOptimizer"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.scripting"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.scripting.ScriptingOutputCapturer"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.scripting.ScriptingOutputCapturer.getStandardOutputRootWriteLocation_changed()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.scripting.ScriptingOutputCapturer.getTaskLogDir_changed(java.lang.String, java.lang.String, java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.tools.parameters"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.tools.parameters.PreprocessorContext"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.tools.parameters.PreprocessorContext.processShellCmd_changed(java.lang.String, java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.tools.parameters.PreprocessorContext.processShellCmd_changed(java.lang.String, java.lang.String, java.lang.Boolean)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.tools.parameters.PreprocessorContext.setPigContext_added(org.apache.pig.impl.PigContext)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.tools.parameters.PreprocessorContext.validate_added(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.tools.pigstats"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.tools.pigstats.JobStats"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.tools.pigstats.JobStats.calculateMedianValue_changed(java.util.List)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.tools.pigstats.PigStatusReporter"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.tools.pigstats.PigStatusReporter.destroy_removed()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.tools.pigstats.PigStatusReporter.staticDataCleanup_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.tools.pigstats.tez"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.validator"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.validator.BlackAndWhitelistFilter"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.validator.BlackAndWhitelistFilter.ctor_added(org.apache.pig.impl.PigContext)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.validator.PigCommandFilter.Command"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.validator.PigCommandFilter.Command.DECLARE"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.validator.PigCommandFilter.Command.DEFAULT"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.validator.PigCommandFilter.Command.DEFINE"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.validator.PigCommandFilter.Command.EXEC"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.validator.PigCommandFilter.Command.EXPLAIN"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.validator.PigCommandFilter.Command.IMPORT"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="org.apache.pig.validator.PigCommandFilter.Command.RUN"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+
+</comments>

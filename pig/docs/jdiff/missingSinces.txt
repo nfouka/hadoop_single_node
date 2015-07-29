@@ -1,0 +1,336 @@
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.util.AccumulatorOptimizerUtil Class
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.util.CombinerOptimizerUtil Class
+NO DOC BLOCK: org.apache.pig.newplan.logical.rules.ConstantCalculator Class
+NO DOC BLOCK: org.apache.pig.newplan.logical.rules.ConstantCalculator.ConstantCalculatorTransformer Class
+NO DOC BLOCK: org.apache.pig.newplan.logical.rules.ConstantCalculator.ConstantCalculatorTransformer.ConstantCalculatorExpressionVisitor Class
+NO DOC BLOCK: org.apache.pig.newplan.logical.rules.ConstantCalculator.ConstantCalculatorTransformer.ConstantCalculatorLogicalPlanVisitor Class
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.plans.EndOfAllInputSetter.EndOfAllInputChecker Class
+NO DOC BLOCK: org.apache.pig.Expression.BetweenExpression Class
+NO DOC BLOCK: org.apache.pig.Expression.InExpression Class
+NO DOC BLOCK: org.apache.pig.Expression.UnaryExpression Class
+NO DOC BLOCK: org.apache.pig.newplan.logical.rules.FilterConstantCalculator Class
+NO DOC BLOCK: org.apache.pig.newplan.FilterExtractor.KeyState Class
+NO DOC BLOCK: org.apache.pig.newplan.logical.rules.ForEachConstantCalculator Class
+NO DOC BLOCK: org.apache.pig.builtin.FuncUtils Class
+MISSING @SINCE TAG: org.apache.pig.impl.util.GroupingSpillable Interface
+NO DOC BLOCK: org.apache.pig.JVMReuseImpl Class
+OK: org.apache.pig.JVMReuseManager Class
+OK: org.apache.pig.LoadPredicatePushdown Interface
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MRConfiguration Class
+MISSING @SINCE TAG: org.apache.pig.builtin.OrcStorage Class
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.util.ParallelConstantVisitor Class
+MISSING @SINCE TAG: org.apache.pig.newplan.PartitionFilterExtractor Class
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin.TupleToMapKey Class
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POPackage.POPackageTupleBuffer Class
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POPoissonSample Class
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POReservoirSample Class
+MISSING @SINCE TAG: org.apache.pig.newplan.PredicatePushDownFilterExtractor Class
+NO DOC BLOCK: org.apache.pig.newplan.logical.rules.PredicatePushdownOptimizer Class
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.SecondaryKeyOptimizerMR Class
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.util.SecondaryKeyOptimizerUtil Class
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.util.SecondaryKeyOptimizerUtil.SecondaryKeyOptimizerInfo Class
+MISSING @SINCE TAG: org.apache.pig.builtin.SPRINTF Class
+NO DOC BLOCK: org.apache.pig.StaticDataCleanup Interface
+OK: org.apache.pig.StoreResources Interface
+MISSING @SINCE TAG: org.apache.pig.builtin.STRSPLITTOBAG Class
+NO DOC BLOCK: org.apache.pig.backend.hadoop.hbase.TableSplitComparable Class
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.plans.UdfCacheShipFilesVisitor Class
+MISSING @SINCE TAG: org.apache.pig.builtin.UniqueID Class
+NO DOC BLOCK: org.apache.pig.validator.BlackAndWhitelistFilter Constructor (org.apache.pig.impl.PigContext)
+MISSING @SINCE TAG: org.apache.pig.newplan.logical.optimizer.LogicalPlanOptimizer Constructor (org.apache.pig.newplan.OperatorPlan, int, java.util.Set, org.apache.pig.impl.PigContext)
+NO DOC BLOCK: org.apache.pig.impl.io.NullableTuple Constructor (org.apache.pig.impl.io.NullableTuple)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.PhysicalOperator Constructor (org.apache.pig.backend.hadoop.executionengine.physicalLayer.PhysicalOperator)
+NO DOC BLOCK: org.apache.pig.PigServer Constructor (java.lang.String, java.util.Properties)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POCounter Constructor (org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POCounter)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin Constructor (org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLocalRearrange Constructor (org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLocalRearrange)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POPackage Constructor (org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POPackage)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.PORank Constructor (org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.PORank)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POStore Constructor (org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POStore)
+NO DOC BLOCK: org.apache.pig.builtin.TOP Constructor (java.lang.String)
+NO DOC BLOCK: org.apache.pig.builtin.TOP.Final Constructor (java.lang.String)
+NO DOC BLOCK: org.apache.pig.builtin.TOP.Initial Constructor (java.lang.String)
+NO DOC BLOCK: org.apache.pig.builtin.TOP.Intermed Constructor (java.lang.String)
+NO DOC BLOCK: org.apache.pig.newplan.FilterExtractor Method addToFilterPlan(org.apache.pig.newplan.logical.expression.LogicalExpression)
+MISSING @SINCE TAG: org.apache.pig.EvalFunc Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.ABS Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.ARITY Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.AddDuration Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.Assert Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.BagSize Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.BagToString Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.BagToTuple Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.Base Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.BigDecimalAbs Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.BigIntegerAbs Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.CONCAT Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.ConstantSize Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.CubeDimensions Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.CurrentTime Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.DIFF Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.DaysBetween Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.DoubleRound Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.DoubleRoundTo Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.ENDSWITH Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.EqualsIgnoreCase Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.FloatAbs Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.FloatRound Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.FloatRoundTo Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.GetDay Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.GetHour Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.GetMilliSecond Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.GetMinute Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.GetMonth Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.GetSecond Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.GetWeek Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.GetWeekYear Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.GetYear Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.HoursBetween Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.INDEXOF Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.INVERSEMAP Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.IntAbs Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.IsEmpty Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.KEYSET Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.LAST_INDEX_OF Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.LCFIRST Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.LOWER Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.LTRIM Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.LongAbs Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.MapSize Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.MilliSecondsBetween Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.MinutesBetween Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.MonthsBetween Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.PluckTuple Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.REGEX_EXTRACT Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.REGEX_EXTRACT_ALL Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.REPLACE Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.ROUND Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.ROUND_TO Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.RTRIM Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.RollupDimensions Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.SIZE Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.STARTSWITH Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.STRSPLIT Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.SUBSTRING Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.SUBTRACT Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.SecondsBetween Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.StringConcat Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.StringSize Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.SubtractDuration Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.TOBAG Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.TOKENIZE Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.TOMAP Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.TOTUPLE Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.TRIM Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.ToDate Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.ToDate2ARGS Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.ToDate3ARGS Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.ToDateISO Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.ToMilliSeconds Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.ToString Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.ToUnixTime Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.TupleSize Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.UCFIRST Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.UPPER Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.VALUELIST Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.VALUESET Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.WeeksBetween Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.builtin.YearsBetween Method allowCompileTimeCalculation()
+NO DOC BLOCK: org.apache.pig.newplan.FilterExtractor Method checkPushDown(org.apache.pig.newplan.logical.expression.ProjectExpression)
+NO DOC BLOCK: org.apache.pig.newplan.FilterExtractor Method checkPushDown(org.apache.pig.newplan.logical.expression.BinaryExpression)
+NO DOC BLOCK: org.apache.pig.newplan.FilterExtractor Method checkPushDown(org.apache.pig.newplan.logical.expression.LogicalExpression)
+NO DOC BLOCK: org.apache.pig.newplan.FilterExtractor Method checkPushDown(org.apache.pig.newplan.logical.expression.UnaryExpression)
+NO DOC BLOCK: org.apache.pig.impl.util.UDFContext Method cleanupStaticData()
+NO DOC BLOCK: org.apache.pig.impl.io.NullablePartitionWritable Method clone()
+NO DOC BLOCK: org.apache.pig.impl.io.PigNullableWritable Method clone()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler Method configureCompression(org.apache.hadoop.conf.Configuration)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.WeightedRangePartitioner Method convertToArray(org.apache.pig.data.DataBag)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.PhysicalOperator Method copyAliasFrom(org.apache.pig.backend.hadoop.executionengine.physicalLayer.PhysicalOperator)
+NO DOC BLOCK: org.apache.pig.impl.util.JarManager Method createPigScriptUDFJar(org.apache.pig.impl.PigContext)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLocalRearrange Method deepCopyTo(org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLocalRearrange)
+NO DOC BLOCK: org.apache.pig.impl.io.FileLocalizer Method deleteTempResourceFiles()
+MISSING @SINCE TAG: org.apache.pig.impl.util.Utils Method depthFirstSearchForFile(org.apache.hadoop.fs.FileStatus, org.apache.hadoop.fs.FileSystem)
+MISSING @SINCE TAG: org.apache.pig.impl.util.Utils Method depthFirstSearchForFile(org.apache.hadoop.fs.FileStatus[], org.apache.hadoop.fs.FileSystem)
+MISSING @SINCE TAG: org.apache.pig.backend.executionengine.ExecutionEngine Method destroy()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.HExecutionEngine Method destroy()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.Launcher Method destroy()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.hbase.HBaseStorage Method ensureAllKeyInstancesInSameSplit()
+NO DOC BLOCK: org.apache.pig.impl.util.Utils Method extractHeapSizeInMB(java.lang.String)
+MISSING @SINCE TAG: org.apache.pig.LoadFunc Method getCacheFiles()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLoad Method getCacheFiles()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POStore Method getCacheFiles()
+NO DOC BLOCK: org.apache.pig.builtin.JsonStorage Method getCacheFiles()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.ColumnInfo Method getColumns()
+NO DOC BLOCK: org.apache.pig.impl.builtin.GFCross Method getCrossKey()
+NO DOC BLOCK: org.apache.pig.impl.util.JarManager Method getDefaultJars()
+NO DOC BLOCK: org.apache.pig.newplan.logical.expression.UserFuncExpression Method getEvalFunc()
+NO DOC BLOCK: org.apache.pig.newplan.FilterExtractor Method getExpression(org.apache.pig.newplan.logical.expression.BinaryExpression, org.apache.pig.Expression.OpType)
+NO DOC BLOCK: org.apache.pig.newplan.FilterExtractor Method getExpression(org.apache.pig.newplan.logical.expression.UnaryExpression, org.apache.pig.Expression.OpType)
+NO DOC BLOCK: org.apache.pig.newplan.FilterExtractor Method getExpression(org.apache.pig.newplan.logical.expression.LogicalExpression)
+MISSING @SINCE TAG: org.apache.pig.backend.hadoop.executionengine.physicalLayer.util.PlanHelper Method getLocalRearrangePlanFromSplit(org.apache.pig.backend.hadoop.executionengine.physicalLayer.plans.PhysicalPlan, org.apache.pig.impl.plan.OperatorKey)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin Method getLRs()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLocalRearrange Method getMainKeyType()
+NO DOC BLOCK: org.apache.pig.impl.builtin.PartitionSkewedKeys Method getMemorySize(org.apache.pig.data.Tuple)
+MISSING @SINCE TAG: org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil Method getPathLength(org.apache.hadoop.fs.FileSystem, org.apache.hadoop.fs.FileStatus, long)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.WeightedRangePartitioner Method getPigNullableWritable(org.apache.pig.data.Tuple)
+MISSING @SINCE TAG: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.WeightedRangePartitioner Method getProbVec(org.apache.pig.data.Tuple)
+MISSING @SINCE TAG: org.apache.pig.newplan.FilterExtractor Method getPushDownExpression()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.PORank Method getRankCounterOffset(java.lang.Integer)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.ColumnInfo Method getResultType()
+MISSING @SINCE TAG: org.apache.pig.EvalFunc Method getShipFiles()
+MISSING @SINCE TAG: org.apache.pig.LoadFunc Method getShipFiles()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.POUserFunc Method getShipFiles()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLoad Method getShipFiles()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POStore Method getShipFiles()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.hbase.HBaseStorage Method getShipFiles()
+NO DOC BLOCK: org.apache.pig.builtin.AvroStorage Method getShipFiles()
+NO DOC BLOCK: org.apache.pig.builtin.JsonLoader Method getShipFiles()
+NO DOC BLOCK: org.apache.pig.builtin.JsonStorage Method getShipFiles()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.ColumnInfo Method getStartCol()
+MISSING @SINCE TAG: org.apache.pig.impl.io.FileLocalizer Method getTemporaryResourcePath(org.apache.pig.impl.PigContext)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin Method getValueTuple(org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLocalRearrange, org.apache.pig.data.Tuple)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POCounter Method incrementReduceCounter(java.lang.Long)
+NO DOC BLOCK: org.apache.pig.newplan.logical.expression.ConstantExpression Method inheritSchema(org.apache.pig.newplan.logical.expression.LogicalExpression)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.SkewedPartitioner Method init()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.WeightedRangePartitioner Method init()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POGlobalRearrange Method isCross()
+NO DOC BLOCK: org.apache.pig.impl.util.Utils Method isHadoop2()
+NO DOC BLOCK: org.apache.pig.impl.util.Utils Method isHadoop23()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin Method isKeyNull(java.lang.Object)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POForEach Method isMapSideOnly()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.ColumnInfo Method isRangeProject()
+NO DOC BLOCK: org.apache.pig.newplan.FilterExtractor Method isSupportedOpType(org.apache.pig.newplan.logical.expression.BinaryExpression)
+NO DOC BLOCK: org.apache.pig.newplan.FilterExtractor Method isSupportedOpType(org.apache.pig.newplan.logical.expression.UnaryExpression)
+MISSING @SINCE TAG: org.apache.pig.impl.util.Utils Method isVendorIBM()
+MISSING @SINCE TAG: org.apache.pig.newplan.BaseOperatorPlan Method moveTree(org.apache.pig.newplan.Operator, org.apache.pig.newplan.BaseOperatorPlan)
+NO DOC BLOCK: org.apache.pig.impl.plan.NodeIdGenerator Method reset()
+NO DOC BLOCK: org.apache.pig.PigServer Method resetScope()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLoad Method setCacheFiles(java.util.List)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POStore Method setCacheFiles(java.util.List)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POGlobalRearrange Method setCross(boolean)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POMergeCogroup Method setEndOfRecordMark(byte)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POMergeJoin Method setEndOfRecordMark(byte)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.POUserFunc Method setFuncSpec(org.apache.pig.FuncSpec)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.Launcher Method setJobException(java.lang.Throwable)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POForEach Method setMapSideOnly(boolean)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler Method setOutputFormat(org.apache.hadoop.mapreduce.Job)
+NO DOC BLOCK: org.apache.pig.tools.parameters.PreprocessorContext Method setPigContext(org.apache.pig.impl.PigContext)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.POUserFunc Method setShipFiles(java.util.List)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLoad Method setShipFiles(java.util.List)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POStore Method setShipFiles(java.util.List)
+MISSING @SINCE TAG: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin Method setUpHashMap()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigOutputFormat Method setupUdfEnvAndStores(org.apache.hadoop.mapreduce.JobContext)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigCombiner.Combine Method staticDataCleanup()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigGenericMapReduce Method staticDataCleanup()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.PhysicalOperator Method staticDataCleanup()
+NO DOC BLOCK: org.apache.pig.builtin.Distinct Method staticDataCleanup()
+NO DOC BLOCK: org.apache.pig.impl.PigContext Method staticDataCleanup()
+NO DOC BLOCK: org.apache.pig.tools.pigstats.PigStatusReporter Method staticDataCleanup()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.datastorage.ConfigurationUtil Method toConfiguration(java.util.Properties, boolean)
+MISSING @SINCE TAG: org.apache.pig.newplan.BaseOperatorPlan Method trimBelow(org.apache.pig.newplan.Operator)
+NO DOC BLOCK: org.apache.pig.tools.parameters.PreprocessorContext Method validate(java.lang.String)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PhyPlanSetter Method visit(org.apache.pig.backend.hadoop.executionengine.physicalLayer.PhysicalOperator)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.plans.PhyPlanVisitor Method visit(org.apache.pig.backend.hadoop.executionengine.physicalLayer.PhysicalOperator)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PhyPlanSetter Method visitPoissonSample(org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POPoissonSample)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.plans.PhyPlanVisitor Method visitPoissonSample(org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POPoissonSample)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PhyPlanSetter Method visitReservoirSample(org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POReservoirSample)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.plans.PhyPlanVisitor Method visitReservoirSample(org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POReservoirSample)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.WeightedRangePartitioner Field comparator
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin Field constExps
+MISSING @SINCE TAG: org.apache.pig.impl.PigImplConstants Field CONVERTED_TO_FETCH
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigOutputFormat Field currentConf
+NO DOC BLOCK: org.apache.pig.validator.PigCommandFilter.Command Field DECLARE
+NO DOC BLOCK: org.apache.pig.validator.PigCommandFilter.Command Field DEFAULT
+NO DOC BLOCK: org.apache.pig.validator.PigCommandFilter.Command Field DEFINE
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin Field dumTup
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POStore Field empty
+NO DOC BLOCK: org.apache.pig.validator.PigCommandFilter.Command Field EXEC
+NO DOC BLOCK: org.apache.pig.validator.PigCommandFilter.Command Field EXPLAIN
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin Field fe
+MISSING @SINCE TAG: org.apache.pig.newplan.FilterExtractor Field filterExpr
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin Field fragment
+NO DOC BLOCK: org.apache.pig.validator.PigCommandFilter.Command Field IMPORT
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.SkewedPartitioner Field inited
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.WeightedRangePartitioner Field inited
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLocalRearrange Field inp
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin Field inputSchemas
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin Field isLeftOuterJoin
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.WeightedRangePartitioner Field job
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin Field keySchemas
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin Field keyTypes
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POPackage Field keyWritable
+NO DOC BLOCK: org.apache.pig.newplan.FilterExtractor Field LOG
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin Field LRs
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POForEach Field mapSideOnly
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigOutputFormat Field mapStores
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin Field mTupleFactory
+NO DOC BLOCK: org.apache.pig.PigWarning Field MULTI_ROOT_REDUCE
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin Field nullBag
+NO DOC BLOCK: org.apache.pig.impl.builtin.FindQuantiles Field numQuantiles
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POCounter Field ONE
+NO DOC BLOCK: org.apache.pig.Expression.OpType Field OP_BETWEEN
+NO DOC BLOCK: org.apache.pig.Expression.OpType Field OP_IN
+NO DOC BLOCK: org.apache.pig.Expression.OpType Field OP_NOT
+NO DOC BLOCK: org.apache.pig.Expression.OpType Field OP_NULL
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigStatsOutputSizeReader Field OUTPUT_SIZE_READER_UNSUPPORTED
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin Field phyPlanLists
+NO DOC BLOCK: org.apache.pig.PigConfiguration Field PIG_ACCUMULATIVE_BATCHSIZE
+NO DOC BLOCK: org.apache.pig.PigConfiguration Field PIG_CACHEDBAG_DISTINCT_TYPE
+MISSING @SINCE TAG: org.apache.pig.PigConfiguration Field PIG_CACHEDBAG_MEMUSAGE
+NO DOC BLOCK: org.apache.pig.PigConfiguration Field PIG_CACHEDBAG_SORT_TYPE
+MISSING @SINCE TAG: org.apache.pig.PigConfiguration Field PIG_CACHEDBAG_TYPE
+MISSING @SINCE TAG: org.apache.pig.impl.PigImplConstants Field PIG_CROSS_PARALLELISM
+MISSING @SINCE TAG: org.apache.pig.PigConfiguration Field PIG_EXEC_MAP_PARTAGG
+MISSING @SINCE TAG: org.apache.pig.PigConfiguration Field PIG_EXEC_MAP_PARTAGG_MINREDUCTION
+MISSING @SINCE TAG: org.apache.pig.PigConfiguration Field PIG_EXEC_NO_COMBINER
+MISSING @SINCE TAG: org.apache.pig.PigConfiguration Field PIG_EXEC_NO_SECONDARY_KEY
+NO DOC BLOCK: org.apache.pig.PigConfiguration Field PIG_EXEC_REDUCER_ESTIMATOR
+NO DOC BLOCK: org.apache.pig.PigConfiguration Field PIG_EXEC_REDUCER_ESTIMATOR_CONSTRUCTOR_ARG_KEY
+MISSING @SINCE TAG: org.apache.pig.PigConfiguration Field PIG_MAX_COMBINED_SPLIT_SIZE
+MISSING @SINCE TAG: org.apache.pig.PigConfiguration Field PIG_NO_SPLIT_COMBINATION
+MISSING @SINCE TAG: org.apache.pig.PigConfiguration Field PIG_NO_TASK_REPORT
+MISSING @SINCE TAG: org.apache.pig.PigConfiguration Field PIG_OPT_ACCUMULATOR
+MISSING @SINCE TAG: org.apache.pig.PigConfiguration Field PIG_OPT_FETCH
+MISSING @SINCE TAG: org.apache.pig.PigConfiguration Field PIG_OPT_MULTIQUERY
+MISSING @SINCE TAG: org.apache.pig.PigConfiguration Field PIG_POISSON_SAMPLER_SAMPLE_RATE
+NO DOC BLOCK: org.apache.pig.PigConfiguration Field PIG_SCHEMA_TUPLE_ALLOW_FORCE
+MISSING @SINCE TAG: org.apache.pig.PigConfiguration Field PIG_SCHEMA_TUPLE_ENABLED
+NO DOC BLOCK: org.apache.pig.PigConfiguration Field PIG_SCHEMA_TUPLE_USE_IN_FOREACH
+NO DOC BLOCK: org.apache.pig.PigConfiguration Field PIG_SCHEMA_TUPLE_USE_IN_FRJOIN
+NO DOC BLOCK: org.apache.pig.PigConfiguration Field PIG_SCHEMA_TUPLE_USE_IN_MERGEJOIN
+NO DOC BLOCK: org.apache.pig.PigConfiguration Field PIG_SCHEMA_TUPLE_USE_IN_UDF
+MISSING @SINCE TAG: org.apache.pig.PigConfiguration Field PIG_SCRIPT_INFO_ENABLED
+MISSING @SINCE TAG: org.apache.pig.PigConfiguration Field PIG_SCRIPT_MAX_SIZE
+MISSING @SINCE TAG: org.apache.pig.PigConfiguration Field PIG_SKEWEDJOIN_REDUCE_MEMUSAGE
+MISSING @SINCE TAG: org.apache.pig.PigConfiguration Field PIG_SPLIT_COMBINATION
+MISSING @SINCE TAG: org.apache.pig.impl.PigImplConstants Field PIG_SPLIT_INDEX
+MISSING @SINCE TAG: org.apache.pig.PigConfiguration Field PIG_STREAMING_UDF_PYTHON_COMMAND
+MISSING @SINCE TAG: org.apache.pig.PigConfiguration Field PIG_TEZ_AUTO_PARALLELISM
+MISSING @SINCE TAG: org.apache.pig.PigConfiguration Field PIG_TEZ_DAG_STATUS_REPORT_INTERVAL
+MISSING @SINCE TAG: org.apache.pig.PigConfiguration Field PIG_TEZ_OPT_UNION
+MISSING @SINCE TAG: org.apache.pig.PigConfiguration Field PIG_TEZ_SESSION_REUSE
+MISSING @SINCE TAG: org.apache.pig.PigConfiguration Field PIG_UDF_PROFILE
+NO DOC BLOCK: org.apache.pig.PigConfiguration Field PIG_UDF_PROFILE_FREQUENCY
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin Field processingPlan
+MISSING @SINCE TAG: org.apache.pig.newplan.FilterExtractor Field pushdownExpr
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.WeightedRangePartitioner Field quantiles
+MISSING @SINCE TAG: org.apache.pig.impl.PigImplConstants Field REDUCER_DEFAULT_PARALLELISM
+NO DOC BLOCK: org.apache.pig.impl.PigImplConstants Field REDUCER_ESTIMATED_PARALLELISM
+NO DOC BLOCK: org.apache.pig.impl.PigImplConstants Field REDUCER_REQUESTED_PARALLELISM
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.SkewedPartitioner Field reducerMap
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigOutputFormat Field reduceStores
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin Field replFiles
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin Field replicates
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.PhysicalOperator Field reporter
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.PhysicalOperator Field RESULT_EMPTY
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.PhysicalOperator Field RESULT_EOP
+NO DOC BLOCK: org.apache.pig.validator.PigCommandFilter.Command Field RUN
+NO DOC BLOCK: org.apache.pig.impl.builtin.FindQuantiles Field samples
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin Field setUp
+NO DOC BLOCK: org.apache.pig.PigConstants Field TASK_INDEX
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.SkewedPartitioner Field tf
+NO DOC BLOCK: org.apache.pig.PigConstants Field TIME_UDFS_ELAPSED_TIME_COUNTER
+MISSING @SINCE TAG: org.apache.pig.PigConstants Field TIME_UDFS_INVOCATION_COUNTER
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.SkewedPartitioner Field totalReducers
+NO DOC BLOCK: org.apache.pig.impl.builtin.PartitionSkewedKeys Field totalReducers_
+MISSING @SINCE TAG: org.apache.pig.impl.util.Utils Field VISIBLE_FILES
