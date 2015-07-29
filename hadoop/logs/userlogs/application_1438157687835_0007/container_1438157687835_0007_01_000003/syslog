@@ -1,0 +1,21 @@
+2015-07-29 12:15:02,884 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2015-07-29 12:15:03,252 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2015-07-29 12:15:03,252 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system started
+2015-07-29 12:15:03,278 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-07-29 12:15:03,278 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: YARN_AM_RM_TOKEN, Service: 0.0.0.0:8030, Ident: (appAttemptId { application_id { id: 7 cluster_timestamp: 1438157687835 } attemptId: 1 } keyId: 63171256)
+2015-07-29 12:15:03,670 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1438157687835_0007, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@70ccde81)
+2015-07-29 12:15:03,795 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-07-29 12:15:04,659 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-nadir/nm-local-dir/usercache/nadir/appcache/application_1438157687835_0007
+2015-07-29 12:15:06,687 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2015-07-29 12:15:08,427 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: mapred.textoutputformat.separator is deprecated. Instead, use mapreduce.output.textoutputformat.separator
+2015-07-29 12:15:08,461 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2015-07-29 12:15:08,545 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2015-07-29 12:15:08,694 INFO [main] org.apache.hadoop.mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@4bc3bb24
+2015-07-29 12:15:09,244 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2015-07-29 12:15:09,781 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2015-07-29 12:15:09,862 INFO [main] org.apache.pig.data.SchemaTupleBackend: Key [pig.schematuple] was not set... will not generate code.
+2015-07-29 12:15:10,055 INFO [main] org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigMapReduce$Reduce: Aliases being processed per job phase (AliasName[line,offset]): M: BookXRecords[3,15],BookXRecords[-1,-1],CountByYear[5,14],GroupByYear[4,14] C: CountByYear[5,14],GroupByYear[4,14] R: CountByYear[5,14]
+2015-07-29 12:15:12,457 INFO [main] org.apache.hadoop.mapred.Task: Task:attempt_1438157687835_0007_r_000000_0 is done. And is in the process of committing
+2015-07-29 12:15:13,016 INFO [main] org.apache.hadoop.mapred.Task: Task attempt_1438157687835_0007_r_000000_0 is allowed to commit now
+2015-07-29 12:15:13,137 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_1438157687835_0007_r_000000_0' to hdfs://localhost:9000/user/pig_output_bookx_storage/_temporary/1/task_1438157687835_0007_r_000000
+2015-07-29 12:15:13,350 INFO [main] org.apache.hadoop.mapred.Task: Task 'attempt_1438157687835_0007_r_000000_0' done.

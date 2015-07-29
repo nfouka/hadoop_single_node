@@ -1,0 +1,42 @@
+2015-07-29 12:14:38,968 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2015-07-29 12:14:39,322 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2015-07-29 12:14:39,322 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system started
+2015-07-29 12:14:39,346 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-07-29 12:14:39,347 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: YARN_AM_RM_TOKEN, Service: 0.0.0.0:8030, Ident: (appAttemptId { application_id { id: 7 cluster_timestamp: 1438157687835 } attemptId: 1 } keyId: 63171256)
+2015-07-29 12:14:39,737 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1438157687835_0007, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@580bd4ff)
+2015-07-29 12:14:39,841 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-07-29 12:14:40,733 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-nadir/nm-local-dir/usercache/nadir/appcache/application_1438157687835_0007
+2015-07-29 12:14:42,563 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2015-07-29 12:14:44,328 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: mapred.textoutputformat.separator is deprecated. Instead, use mapreduce.output.textoutputformat.separator
+2015-07-29 12:14:44,365 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2015-07-29 12:14:44,419 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2015-07-29 12:14:44,951 INFO [main] org.apache.hadoop.mapred.MapTask: Processing split: Number of splits :1
+Total Length = 77787439
+Input split[0]:
+   Length = 77787439
+   ClassName: org.apache.hadoop.mapreduce.lib.input.FileSplit
+   Locations:
+
+-----------------------
+
+2015-07-29 12:14:45,062 INFO [main] org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigRecordReader: Current split being processed hdfs://localhost:9000/user/nfouka/Pig_for_Beginners/BX-Books.csv:0+77787439
+2015-07-29 12:14:45,452 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2015-07-29 12:14:45,452 INFO [main] org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2015-07-29 12:14:45,452 INFO [main] org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2015-07-29 12:14:45,452 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2015-07-29 12:14:45,452 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2015-07-29 12:14:45,498 INFO [Service Thread] org.apache.pig.impl.util.SpillableMemoryManager: first memory handler call- Usage threshold init = 64159744(62656K) used = 113156184(110504K) committed = 139853824(136576K) max = 139853824(136576K)
+2015-07-29 12:14:45,510 INFO [main] org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2015-07-29 12:14:45,602 INFO [main] org.apache.pig.data.SchemaTupleBackend: Key [pig.schematuple] was not set... will not generate code.
+2015-07-29 12:14:45,773 INFO [main] org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigGenericMapReduce$Map: Aliases being processed per job phase (AliasName[line,offset]): M: BookXRecords[3,15],BookXRecords[-1,-1],CountByYear[5,14],GroupByYear[4,14] C: CountByYear[5,14],GroupByYear[4,14] R: CountByYear[5,14]
+2015-07-29 12:14:53,004 INFO [main] org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2015-07-29 12:14:53,005 INFO [main] org.apache.hadoop.mapred.MapTask: Spilling map output
+2015-07-29 12:14:53,005 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufend = 3849173; bufvoid = 104857600
+2015-07-29 12:14:53,005 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396(104857584); kvend = 25128880(100515520); length = 1085517/6553600
+2015-07-29 12:14:53,763 INFO [main] org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigCombiner$Combine: Aliases being processed per job phase (AliasName[line,offset]): M: BookXRecords[3,15],BookXRecords[-1,-1],CountByYear[5,14],GroupByYear[4,14] C: CountByYear[5,14],GroupByYear[4,14] R: CountByYear[5,14]
+2015-07-29 12:14:56,302 INFO [main] org.apache.hadoop.mapred.MapTask: Finished spill 0
+2015-07-29 12:14:56,319 INFO [main] org.apache.hadoop.mapred.Task: Task:attempt_1438157687835_0007_m_000000_0 is done. And is in the process of committing
+2015-07-29 12:14:56,692 INFO [main] org.apache.hadoop.mapred.Task: Task 'attempt_1438157687835_0007_m_000000_0' done.
+2015-07-29 12:14:56,693 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Stopping MapTask metrics system...
+2015-07-29 12:14:56,696 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system stopped.
+2015-07-29 12:14:56,697 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system shutdown complete.

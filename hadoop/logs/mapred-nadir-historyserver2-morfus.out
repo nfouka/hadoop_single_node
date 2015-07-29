@@ -1,0 +1,14 @@
+historyserver2 - invalid command
+Usage: mapred [--config confdir] [--loglevel loglevel] COMMAND
+       where COMMAND is one of:
+  pipes                run a Pipes job
+  job                  manipulate MapReduce jobs
+  queue                get information regarding JobQueues
+  classpath            prints the class path needed for running
+                       mapreduce subcommands
+  historyserver        run job history servers as a standalone daemon
+  distcp <srcurl> <desturl> copy file or directories recursively
+  archive -archiveName NAME -p <parent path> <src>* <dest> create a hadoop archive
+  hsadmin              job history server admin interface
+
+Most commands print help when invoked w/o parameters.
